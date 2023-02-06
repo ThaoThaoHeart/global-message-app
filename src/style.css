@@ -1,0 +1,45 @@
+/* The alert message box */
+.alert {
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.warning{
+  background-color: #f05f55; 
+}
+
+.promote{
+  background-color: rgb(82, 161, 222); 
+}
+
+/* Alert Desciption */
+.alertDescription{
+  display: none;
+}
+
+/* The close button */
+.closebtn {
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* Show more button */
+.showMoreBtn {
+  color: blue;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.showMoreBtn:hover {
+  color: black;
+}
